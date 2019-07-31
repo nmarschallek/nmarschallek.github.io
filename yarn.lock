@@ -1949,9 +1949,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000984:
-  version "1.0.30000986"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000986.tgz#f34350e367cc900509511574817ac092112bf7ab"
-  integrity sha512-pM+LnkoAX0+QnIH3tpW5EnkmfpEoqOD8FAcoBvsl3Xh6DXkgctiCxeCbXphP/k3XJtJzm+zOAJbi6U6IVkpWZQ==
+  version "1.0.30000987"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000987.tgz#bc6b47217afd8226a2b1964635c6bff62cdf5738"
+  integrity sha512-O3VrjtRMTxoU5Cn5/QSmXeIR1gkVps4j9jqfIm4FLaQ5JzqBlVjMUG1xWnoYFv8N+H3Lp++aa05TekyIbjHL7g==
 
 case-sensitive-paths-webpack-plugin@^2.2.0:
   version "2.2.0"
@@ -2963,9 +2963,9 @@ ejs@^2.6.1:
   integrity sha512-PcW2a0tyTuPHz3tWyYqtK6r1fZ3gp+3Sop8Ph+ZYN81Ob5rwmbHEzaqs10N3BEsaGTkh/ooniXK+WwszGlc2+Q==
 
 electron-to-chromium@^1.3.191:
-  version "1.3.204"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.204.tgz#1ea5c6d495bab77995aa135dbcbc1d383dd4e21e"
-  integrity sha512-T0eXE6hfbtpzRUaI7aHI/HYJ29Ndk84aVSborRAmXfWvBvz2EuB2OWYUxNcUX9d+jtqEIjgZjWMdoxS0hp5j1g==
+  version "1.3.206"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.206.tgz#f72a8694dce5c669170c78097177d7b601977c10"
+  integrity sha512-djq9Ehxs2rwPh7pyY1GMf8vkOWPoK8eoMp913E4t0UaEXvbnOsiSowBBHI8YoN4aKVQJjvxQp5I0LdZkT3Uzmw==
 
 elliptic@^6.0.0:
   version "6.5.0"
@@ -3266,9 +3266,9 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1:
   integrity sha1-De4/7TH81GlhjOc0IJn8GvoL2xM=
 
 esutils@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
-  integrity sha1-Cr9PHKpbyx96nYrMbepPqqBLrJs=
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
+  integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
 etag@~1.8.1:
   version "1.8.1"
@@ -8089,9 +8089,9 @@ vuetify-loader@^1.2.2:
     loader-utils "^1.2.0"
 
 vuetify@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.0.2.tgz#370916d7e563e84e15dff9eccf24980c61b01e09"
-  integrity sha512-cg7zChvouAYlRhkz3g8A5B/MAOxZYmrq9fksHnWZ1Rs4ZmRwoNs5Kgexp8qaw3dxDs6cRkY7+1NaHuFc/+U0dA==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.0.3.tgz#3fdca5df2e326c203d96561443087a9c756341de"
+  integrity sha512-XJ70Iex/BBwxbmf+s2hCpyrDPsXuuQkGod+dthiQkAf9N28tzyYD0vxS3r6U1o7Oaqmo1ctzLhlAw074asdGFg==
 
 watchpack@^1.5.0:
   version "1.6.0"
@@ -8117,9 +8117,9 @@ wcwidth@^1.0.1:
     defaults "^1.0.3"
 
 webpack-bundle-analyzer@^3.3.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.4.0.tgz#3264ab5a68db751be94aa2a9a245a607cec07be2"
-  integrity sha512-aQF79FrHKukJelV4diJr+3IwRzFlJLzoUgw1e+T2MYsSN4LbRTxCoZuvMrE8qIlYfEMlcuqKKzHYVutze6QKcg==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.4.1.tgz#430544c7ba1631baccf673475ca8300cb74a3c47"
+  integrity sha512-Bs8D/1zF+17lhqj2OYmzi7HEVYqEVxu7lCO9Ff8BwajenOU0vAwEoV8e4ICCPNZAcqR1PCR/7o2SkW+cnCmF0A==
   dependencies:
     acorn "^6.0.7"
     acorn-walk "^6.1.1"
