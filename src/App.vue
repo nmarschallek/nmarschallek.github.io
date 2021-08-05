@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gray-100 h-screen">
+  <div class="bg-gray-100 min-h-screen">
     <div class="space-y-5 bg-gray-200 shadow-md">
-      <div class="container mx-auto flex flex-col space-y-3 py-12 px-5">
+      <div class="container mx-auto flex flex-col space-y-3 py-12 max-w-2xl px-5">
         <div class="flex sm:flex-row flex-col">
           <div class="w-56 h-56 m-5 mx-auto sm:mx-5">
             <img src="./assets/headshot.png" class="rounded-full border border-4 border-white">
@@ -30,18 +30,15 @@
       </div>
     </div>
 
-    <div class="container mx-auto pb-10 px-5">
+    <div class="container mx-auto pb-10 max-w-2xl px-5">
       <h2 class="text-2xl font-semibold tracking-wide text-gray-800 py-5">Projects</h2>
       <ul v-if="projects.length" class="space-y-5">
         <a
           v-for="project in projects"
           :href="project.url"
           target="_blank"
-          class="bg-white shadow-lg rounded-md p-3 flex flex-row space-x-5 h-52 hover:shadow-xl"
+          class="bg-white shadow-lg rounded-md p-3 flex flex-row space-x-5 h-44 hover:shadow-xl"
         >
-          <div class="bg-blue-300 w-2/3 h-full">
-
-          </div>
           <div>
             <h3 class="text-xl text-indigo-800 font-semibold tracking-wide py-1">{{ project.title }}</h3>
             <p class="text-gray-500">{{ project.body }}</p>
@@ -56,7 +53,24 @@
 <script setup>
 import { reactive } from "vue"
 
-let projects = reactive([])
+let projects = reactive([
+  {
+    title: 'Investment Frequency Calculator',
+    url: 'https://marschallek.me/finance-calculators/#/',
+    body: 'This calculator can be used to determine the optimal frequency to invest a regular stream of income, to maximise return in the market versus the costs of brokerage and keeping the balance in a savings account.'
+  },
+  {
+    title: 'Split Mortgage Calculator',
+    url: 'https://marschallek.me/finance-calculators/#/loan',
+    body: 'This calculator can be used to determine the total costs of splitting a mortgage between fixed and variable rates, with different balances over differing years.'
+  },
+  {
+    title: 'Mortgage Cost Calculator',
+    url: 'https://marschallek.me/finance-calculators/#/mortgage',
+    body: 'This calculator can be used to display the time it would take to pay off a mortgage depending on factors such as rate and monthly payment.'
+  },
+])
+
 let links = reactive([
   {
     text: 'Email',
